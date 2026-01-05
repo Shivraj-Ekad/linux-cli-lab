@@ -1,0 +1,40 @@
+46447 sample_data.txt  46447 sample_hard.txt  46448 sample_soft.txt
+
+-rw-r--r-- 2 shivraj shivraj 30 Jan  5 15:54 sample_data.txt
+
+76K     /home/shivraj
+
+total 24K
+drwxr-xr-x 6 shivraj shivraj 4.0K Jan  5 14:26 linux-cli-lab
+-rw-r--r-- 1 shivraj shivraj   62 Jan  5 14:47 log.txt
+drwxr-xr-x 3 shivraj shivraj 4.0K Jan  5 15:04 project_documents
+-rw-r--r-- 2 shivraj shivraj   30 Jan  5 15:54 sample_data.txt
+-rw-r--r-- 2 shivraj shivraj   30 Jan  5 15:54 sample_hard.txt
+lrwxrwxrwx 1 shivraj shivraj   29 Jan  5 15:57 sample_soft.txt -> /home/shivraj/sample_data.txt
+-rw-r--r-- 1 shivraj shivraj   32 Jan  5 14:38 user_info.txt
+
+sample_data.txt
+
+20K     /home/shivraj/linux-cli-lab
+4.0K    /home/shivraj/.cache
+16K     /home/shivraj/project_documents
+8.0K    /home/shivraj/.config
+88K     /home/shivraj
+
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         119G   58G   61G  49% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.9G  954G   1% /
+none            1.9G   76K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  516K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             119G   58G   61G  49% /mnt/c
+D:\             622G  762M  621G   1% /mnt/d
+E:\             311G  119G  192G  39% /mnt/e
+tmpfs           384M   20K  384M   1% /run/user/1000
