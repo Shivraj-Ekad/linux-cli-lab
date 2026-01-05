@@ -1,0 +1,62 @@
+1. User Identity Verification
+whoami
+groups
+
+
+Explanation: whoami shows the currently logged-in username, and groups lists all groups associated with my user account.
+
+2. Workspace Validation
+pwd
+ls -l
+
+
+Explanation: pwd displays the current working directory, and ls -l lists files and directories with permissions, ownership, and size.
+
+3. Environment Confirmation File
+echo "Linux user environment verified" > user_info.txt
+
+
+Explanation: This command creates user_info.txt and writes the confirmation message into it.
+
+4. File Integrity Check
+wc -m user_info.txt
+
+
+Explanation: wc -m counts the number of characters present in the file.
+
+5. Learning the Tools
+man mkdir
+
+
+Explanation: I accessed the manual page for mkdir.
+Useful option: -p creates parent directories if they do not exist.
+
+6. Home Directory Inspection
+ls ~ | sort
+
+
+Explanation: This lists all contents of the home directory in alphabetical order.
+
+7. Log Investigation
+grep "admin" log.txt
+
+
+Explanation: grep searches for the word “admin” and displays only the matching lines.
+
+8. System Information Check
+uname -r
+
+
+Explanation: This displays the currently running Linux kernel version.
+
+9. Network Connectivity Test
+ping -c 4 www.google.com
+
+
+Explanation: This sends 4 ICMP packets to verify network connectivity.
+
+10. System Health Awareness
+uptime
+
+
+Explanation: The output shows how long the system has been running, number of users logged in, and load average.
