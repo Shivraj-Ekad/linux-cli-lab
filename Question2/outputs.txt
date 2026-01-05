@@ -1,0 +1,10 @@
+-rw-r--r-- 1 shivraj shivraj 42 Jan  5 14:53 plan.txt
+
+/home/shivraj/project_documents/:
+archieve  plan.txt
+
+/home/shivraj/project_documents/archieve:
+plan_copy.txt
+
+
+/home/shivraj/project_documents/archieve/plan_copy.txt

@@ -1,0 +1,60 @@
+1. Project Workspace Setup
+mkdir ~/documents
+
+Explanation: This creates a directory named documents inside my home directory.
+
+
+2. File Creation
+cd ~/documents
+touch plan.txt
+
+Explanation: I navigated into documents and created an empty file named plan.txt.
+
+
+3. Content Addition
+echo "Project planning notes for initial setup." > plan.txt
+
+Explanation: This writes sample project notes into the file.
+
+
+4. File Metadata Verification
+ls -l plan.txt
+
+Explanation: Displays permissions, ownership, and confirms my username owns the file.
+
+
+5. File Duplication
+cp plan.txt plan_copy.txt
+
+Explanation: This creates a duplicate of plan.txt.
+
+
+6. Directory Renaming
+cd ~
+mv documents project_documents
+
+Explanation: Renames the directory to better reflect project usage.
+
+
+7. Archival Structure
+mkdir ~/project_documents/archive
+
+Explanation: Creates a subdirectory named archive.
+
+
+8. File Organization
+mv ~/project_documents/plan_copy.txt ~/project_documents/archive/
+
+Explanation: Moves the copied file into the archive folder.
+
+
+9. Recursive Listing
+ls -R ~/project_documents
+
+Explanation: Recursively lists all files and subdirectories.
+
+
+10. Path Verification
+realpath ~/project_documents/archive/plan_copy.txt
+
+Explanation: Displays the absolute path of the moved file.
