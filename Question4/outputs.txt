@@ -1,0 +1,57 @@
+20:38:45 up  2:42,  1 user,  load average: 0.30, 0.37, 0.41
+
+PID TTY          TIME CMD
+    306 pts/0    00:00:00 bash
+    352 ?        00:00:00 systemd
+    353 ?        00:00:00 (sd-pam)
+    378 pts/1    00:00:00 bash
+   3017 pts/0    00:00:00 ps
+
+top - 20:45:56 up 2:49, 1 user, load average: 0.60, 0.50, 0.45
+Tasks: 24 total,   1 running,  23 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 1.1 us,  4.7 sy,  0.0 ni, 93.1 id,  0.1 wa,  0.0 hi,  1.0 si,  0.0 st
+MiB Mem : 3836.2 total, 2275.6 free,  500.9 used, 1208.4 buff/cache
+MiB Swap: 1024.0 total, 1024.0 free,    0.0 used. 3335.3 avail Mem
+
+  PID USER     PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+  306 shivraj  20   0    6204   5120   3456 S   0.0  0.1   0:00.13 bash
+  352 shivraj  20   0  20316  11136   9088 S   0.0  0.3   0:00.46 systemd
+  353 shivraj  20   0  21148   3396   1792 S   0.0  0.1   0:00.00 (sd-pam)
+  378 shivraj  20   0    6056   5120   3584 S   0.0  0.1   0:00.00 bash
+ 3018 shivraj  20   0    9316   5632   3456 R   0.0  0.1   0:00.02 top
+
+[1] 3021
+[1]+  Running                 sleep 300 &
+
+3021 pts/0    00:00:00 sleep
+
+3021 (process ID) old priority 0, new priority 5
+
+ total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       492Mi       2.2Gi       3.5Mi       1.2Gi       3.3Gi
+Swap:          1.0Gi          0B       1.0Gi
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.9G  954G   1% /
+
+/bin/bash
+
+ncdu 1.19 ~ Use the arrow keys to navigate, press ? for help
+--- /home/shivraj -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   20.0 KiB [#############################] /linux-cli-lab
+   16.0 KiB [#######################      ] /project_documents
+    8.0 KiB [###########                  ] /.config
+    4.0 KiB [#####                        ] /.cache
+    4.0 KiB [#####                        ]  .bashrc
+    4.0 KiB [#####                        ]  .bash_history
+    4.0 KiB [#####                        ]  .profile
+    4.0 KiB [#####                        ]  .bash_logout
+    4.0 KiB [#####                        ]  system_report.txt
+    4.0 KiB [#####                        ]  log.txt
+    4.0 KiB [#####                        ]  user_info.txt
+H   4.0 KiB [#####                        ]  sample_hard.txt
+H   4.0 KiB [#####                        ]  sample_data.txt
+    4.0 KiB [#####                        ]  .lesshst
+@   0.0   B [                             ]  sample_soft.txt
+    0.0   B [                             ]  .sudo_as_admin_successful
+    0.0   B [                             ]  .motd_shown

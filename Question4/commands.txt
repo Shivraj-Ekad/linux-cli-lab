@@ -1,0 +1,22 @@
+uptime
+
+ps -u $USER
+
+top -u $USER
+
+sleep 300 &
+jobs
+
+ps -u $USER | grep sleep
+
+renice 5 -p 3021
+
+free -h
+
+df -h ~
+
+echo $SHELL
+
+uname -a > system_report.txt
+
+ncdu ~

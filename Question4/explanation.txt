@@ -1,0 +1,59 @@
+1. System Uptime Verification
+uptime
+
+Explanation: Shows system running time since last boot.
+
+
+2. User Process Listing
+ps -u $USER
+
+Explanation: Lists all processes running under my user account.
+
+
+3. CPU Usage Analysis
+top -u $USER
+
+Explanation: Displays processes sorted by CPU usage.
+
+
+4. Background Process Execution
+sleep 300 &
+jobs
+
+Explanation: Starts a background process and verifies it is running.
+
+
+5. Process Priority Management
+renice 5 -p 3021
+
+Explanation: Changes the niceness value of a running process.
+
+
+6. Memory Usage Monitoring
+free -h
+
+Explanation: Displays RAM and swap usage in human-readable format.
+
+
+7. Disk Space Inspection
+df -h ~
+
+Explanation: Shows disk usage of the filesystem containing the home directory.
+
+
+8. Shell Identification
+echo $SHELL
+
+Explanation: Displays the name of the currently used shell.
+
+
+9. Output Redirection
+uname -a > system_report.txt
+
+Explanation: Redirects system information output into a file.
+
+
+10. Disk Usage Visualization
+ncdu ~
+
+Explanation: ncdu provides an interactive visual representation of disk usage.
